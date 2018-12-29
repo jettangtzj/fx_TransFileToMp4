@@ -8,10 +8,12 @@
 
 <BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.SampleController">
    <center>
-      <TextArea fx:id="textarea" editable="false" prefHeight="1081.0" prefWidth="831.0" BorderPane.alignment="CENTER" />
+      <TextArea fx:id="textarea" editable="false" prefHeight="1081.0" 
+      prefWidth="831.0" 
+      BorderPane.alignment="CENTER" />
    </center>
    <top>
-      <TextField fx:id="url_inputfield" BorderPane.alignment="CENTER" />
+      <TextField fx:id="url_inputfield" BorderPane.alignment="CENTER" editable="false" />
    </top>
    <bottom>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
